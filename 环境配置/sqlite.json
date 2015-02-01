@@ -1,5 +1,0 @@
-{
-  "taskdb": "sqlite+type:///path/to/taskdb",
-  "projectdb": "sqlite+type:///path/to/projectdb",
-  "resultdb": "sqlite+type:///path/to/resultdb",
-}
