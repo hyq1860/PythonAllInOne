@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3993f757-3903-43a7-8e5e-a3a0e0f57d5e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Py_DataType_Var.py</StartupFile>
+    <StartupFile>caoliu2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="caoliu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="caoliu2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PythonOO.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonStudy.py" />
     <Compile Include="PythonVersion.py">
       <SubType>Code</SubType>

@@ -174,16 +174,16 @@ print sum;
     
 
 #raw_input
-birth=raw_input('请输入你的年龄：')
-if(birth>1990):
-    print '90后'
-else:
-    print '80后'
-birth=int(raw_input('请输入你的年龄：'))
-if(birth>1990):
-    print '90后'
-else:
-    print '80后'
+#birth=raw_input('请输入你的年龄：')
+#if(birth>1990):
+#    print '90后'
+#else:
+#    print '80后'
+#birth=int(raw_input('请输入你的年龄：'))
+#if(birth>1990):
+#    print '90后'
+#else:
+#    print '80后'
 
 
 #dict
@@ -315,3 +315,23 @@ print [x+y for x in [1,2,3] for y in [4,5,6]]
 #文件
 import os
 print [ d for d in os.listdir('.')]
+
+d={'x':'a','y':'b','z':'c'}
+print [k+'='+v for k,v in d.iteritems()]
+
+#列表字符都转为小写
+L=['Hello','World']
+print [s.lower() for s in L]
+
+
+#模块
+
+
+#模块搜索路径
+import sys
+print sys.path
+
+#python3
+print 10/3
+print 10.0/3
+print 10//3#地板除
